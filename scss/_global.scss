@@ -1,0 +1,50 @@
+.wrapper {
+  max-width: 1600px;
+  overflow: hidden;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.text-heading {
+  font-size: 65px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  color: #fff;
+  padding-top: 100px;
+}
+
+.text-desc {
+  font-size: 17px;
+  line-height: calc(28 / 17);
+  max-width: 635px;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.text-shortdes {
+  font-family: "Satisfy", cursive;
+  color: #3fd0d4;
+  font-size: 33px;
+}
+
+.text-small {
+  font-size: 14px;
+  color: #a9a9a9;
+}
+
+@media screen and (max-width: 1025px) {
+  .text-desc {
+    font-size: 14px;
+    max-width: 80vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text-heading {
+    font-size: 40px;
+  }
+}

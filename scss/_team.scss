@@ -1,0 +1,86 @@
+.team {
+  background: $primary;
+  &-container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  &-item {
+    position: relative;
+
+    &:hover {
+      cursor: pointer;
+      .team-info {
+        bottom: 0 !important;
+      }
+    }
+  }
+
+  &-info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    background: $primary;
+    color: #fff;
+    padding: 22px 25px 26px;
+    text-align: center;
+    transition: all 0.5s ease-out;
+  }
+
+  &-name {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  &-social {
+    display: flex;
+    gap: 0 30px;
+    justify-content: center;
+  }
+
+  &-icon {
+    font-size: 17px;
+  }
+}
+
+#numbers {
+  display: grid;
+  color: #fff;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  padding: 20px 0 20px;
+}
+
+.number-content {
+  padding: 50px 0;
+  .fig-number {
+    padding: 20px 0 30px;
+    font-size: 65px;
+    font-weight: 600;
+  }
+  span {
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .team-container {
+    max-width: 90vw;
+  }
+}
+@media screen and (max-width: 1023px) {
+  #numbers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .number-content {
+    padding: 15px 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .slider3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

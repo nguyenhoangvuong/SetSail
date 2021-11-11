@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel='shortcut icon' href='./images/logo.png' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sétail</title>
+    <link rel="stylesheet" href="css/app.css">
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- swiper slide -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <!-- header -->
+        <header class="header">
+            <div class="header__logo">
+                <img class="header__logo-show-pc" src="./images/logo-white.png" alt="">
+                <img class="header__logo-show-mobile" src="./images/logo_white.png" alt="">
+            </div>
+            <div class="header__nav">
+                <ul class="header__nav__list">
+                    <li class="header__nav-item">
+                        <input type="checkbox" class="hidden-click" id="second-1">
+                        <a href="#" class="header__nav-link active link-desktop">Home</a>
+                        <label class="label" for="second-1" onClick="hiddenClick('#second-1')"><span>Home</span><i
+                                class="fas fa-chevron-down"></i></label>
+                        <ul class="header__nav-list-second second-1">
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <input type="checkbox" class="hidden-click" id="second-2">
+                        <a href="#" class="header__nav-link  link-desktop">Pages</a>
+                        <label class="label" for="second-2" onClick="hiddenClick('#second-2')"><span>Pages</span><i
+                                class="fas fa-chevron-down"></i></label>
+                        <ul class="header__nav-list-second second-2">
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <input type="checkbox" class="hidden-click" id="second-3">
+
+                        <a href="#" class="header__nav-link link-desktop">Destinations</a>
+                        <label class="label" for="second-3"
+                            onClick="hiddenClick('#second-3')"><span>Destinations</span><i
+                                class="fas fa-chevron-down"></i></label>
+                        <ul class="header__nav-list-second  second-3">
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <input type="checkbox" class="hidden-click" id="second-4">
+                        <a href="#" class="header__nav-link link-desktop">Tours</a>
+                        <label class="label" for="second-4" onClick="hiddenClick('#second-4')"><span>Tours</span><i
+                                class="fas fa-chevron-down"></i></label>
+                        <ul class="header__nav-list-second second-4">
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <input type="checkbox" class="hidden-click" id="second-5">
+                        <a href="#" class="header__nav-link link-desktop">Blog</a>
+                        <label class="label" for="second-5" onClick="hiddenClick('#second-5')"><span>Blog</span><i
+                                class="fas fa-chevron-down"></i></label>
+                        <ul class="header__nav-list-second second-5">
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <input type="checkbox" class="hidden-click" id="second-6">
+                        <a href="#" class="header__nav-link link-desktop">shop</a>
+                        <label class="label" for="second-6" onClick="hiddenClick('#second-6')"><span>Shop</span><i
+                                class="fas fa-chevron-down"></i></label>
+                        <ul class="header__nav-list-second second-6">
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <input type="checkbox" class="hidden-click" id="second-7">
+                        <a href="#" class="header__nav-link link-desktop">Element</a>
+                        <label class="label" for="second-7" onClick="hiddenClick('#second-7')"><span>Element</span><i
+                                class="fas fa-chevron-down"></i></label>
+                        <ul class="header__nav-list-second second-7">
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Travel Agency</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Winter Holidays</a>
+                            </li>
+                            <li class="header__nav-item-second">
+                                <a href="#" class="header__nav-item-second-link">Coty Tours</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__nav-mobile-icon">
+                <i class="header-icon fas fa-bars"></i>
+            </div>
+            <div class="header__service">
+                <div class="header-cart">
+                    <i class="header-icon fas fa-cart-plus"></i>
+                    <div class="header-cart-item">
+                        Không có sản phẩm nào
+                    </div>
+                </div>
+                <div class="header-search">
+                    <i class="header-icon header-icon-search fas fa-search"></i>
+                    <div class="header-form-search">
+                        <div class="header-form-search-content">
+                            <input type="text" placeholder="Search...">
+                            <button class="button button--primary">FIND NOW</button>
+                        </div>
+                        <div class="header-btn-close">
+                            <i class="btn-close-search fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bar">
+                    <i class="header-icon header-icon-bar fas fa-signal"></i>
+                    <div class="header-contact">
+                        <div class="header-contact-close">
+                            <i class="btn-close-contact fas fa-times"></i>
+                        </div>
+                        <div class="header-contact-img">
+                            <img src="./images/logo-white.png" alt="">
+                            <img src="./images/sidearea-img-2.png" alt="">
+                            <img src="./images/sidearea-img.jpg" alt="">
+                        </div>
+                        <p class="header-contact-lorem">
+                            Lorem ipsum dolor sit amet, consectetuer adipis cing elit. Aenean commodo ligula eget
+                            dolor.
+                            Aenean massa. Cum sociis theme natoque
+                        </p>
+                        <h3 class="header-contact-title">
+                            Find Your Destination
+                        </h3>
+                        <div class="header-contact-search">
+                            <input type="text" placeholder="Search">
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
+                        <div class="header-contact-follow">
+                            <h3 class="header-contact-title">Follow Me</h3>
+                            <div class="header-contact-follow-icon">
+                                <i class="twitter fab fa-twitter"></i>
+                                <i class="pinterest fab fa-pinterest"></i>
+                                <i class="facebook fab fa-facebook-f"></i>
+                                <i class="instagram fab fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/photo-1551698618-1dfe5d97d256.png" alt="">
+                        <div class="hero-content">
+                            <p class="text-shortdes hero-shortdes">Enjoy Your</p>
+                            <h1 class="hero-heading">Winter Vacations</h1>
+                            <p class="hero-lorem">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, quibusdam! Fuga ad iure
+                                pariatur voluptatibus, earum quae.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/photo-1486072889922-9aea1fc0a34d.png" alt="">
+                        <div class="hero-content">
+                            <p class="hero-shortdes">From Alps</p>
+                            <h1 class="hero-heading">
+                                Snow Advanture
+                            </h1>
+                            <p class="hero-lorem">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, quibusdam! Fuga ad iure
+                                pariatur voluptatibus, earum quae.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+        <section class="slider2">
+            <div class="tour">
+                <div class="tour-img">
+                    <img src="./images/tour1.png" alt="">
+                </div>
+                <div class="tour-calendar">
+                    <div class="tour-calend">
+                        <i class="tour-icon far fa-calendar"></i>
+                        <span>1</span>
+                    </div>
+                    <div class="tour-user">
+                        <i class="tour-icon fas fa-user"></i>
+                        <span>13+</span>
+                    </div>
+                    <div class="tour-location">
+                        <i class="tour-icon fas fa-map-marker-alt"></i>
+                        <span>Skiing</span>
+                    </div>
+                </div>
+                <div class="tour-content">
+                    <h3 class="tour-heading">
+                        Winter Action
+                    </h3>
+                    <p class="tour-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum provident
+                        officia,
+                        quos maiores nostrum.
+                    </p>
+                    <div class="tour-foot">
+                        <div class="tour-price">$1000</div>
+                        <div class="tour-rating">
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>6.7</span>
+                            <strong>Superb</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tour">
+                <div class="tour-img">
+                    <img src="./images/tour2.png" alt="">
+                </div>
+                <div class="tour-calendar">
+                    <div class="tour-calend">
+                        <i class="tour-icon far fa-calendar"></i>
+                        <span>1</span>
+                    </div>
+                    <div class="tour-user">
+                        <i class="tour-icon fas fa-user"></i>
+                        <span>13+</span>
+                    </div>
+                    <div class="tour-location">
+                        <i class="tour-icon fas fa-map-marker-alt"></i>
+                        <span>Skiing</span>
+                    </div>
+                </div>
+                <div class="tour-content">
+                    <h3 class="tour-heading">
+                        Winter Action
+                    </h3>
+                    <p class="tour-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum provident
+                        officia,
+                        quos maiores nostrum.
+                    </p>
+                    <div class="tour-foot">
+                        <div class="tour-price">$1000</div>
+                        <div class="tour-rating">
+                            <i class="fas fa-star"></i>
+                            <span>6.7</span>
+                            <strong>Superb</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tour">
+                <div class="tour-img">
+                    <img src="./images/tour3.png" alt="">
+                </div>
+                <div class="tour-calendar">
+                    <div class="tour-calend">
+                        <i class="tour-icon far fa-calendar"></i>
+                        <span>1</span>
+                    </div>
+                    <div class="tour-user">
+                        <i class="tour-icon fas fa-user"></i>
+                        <span>13+</span>
+                    </div>
+                    <div class="tour-location">
+                        <i class="tour-icon fas fa-map-marker-alt"></i>
+                        <span>Skiing</span>
+                    </div>
+                </div>
+                <div class="tour-content">
+                    <h3 class="tour-heading">
+                        Winter Action
+                    </h3>
+                    <p class="tour-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum provident
+                        officia,
+                        quos maiores nostrum.
+                    </p>
+                    <div class="tour-foot">
+                        <div class="tour-price">$1000</div>
+                        <div class="tour-rating">
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>6.7</span>
+                            <strong>Good</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tour">
+                <div class="tour-img">
+                    <img src="./images/tour4.png" alt="">
+                </div>
+                <div class="tour-calendar">
+                    <div class="tour-calend">
+                        <i class="tour-icon far fa-calendar"></i>
+                        <span>1</span>
+                    </div>
+                    <div class="tour-user">
+                        <i class="tour-icon fas fa-user"></i>
+                        <span>13+</span>
+                    </div>
+                    <div class="tour-location">
+                        <i class="tour-icon fas fa-map-marker-alt"></i>
+                        <span>Skiing</span>
+                    </div>
+                </div>
+                <div class="tour-content">
+                    <h3 class="tour-heading">
+                        Winter Action
+                    </h3>
+                    <p class="tour-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum provident
+                        officia,
+                        quos maiores nostrum.
+                    </p>
+                    <div class="tour-foot">
+                        <div class="tour-price">$1000</div>
+                        <div class="tour-rating">
+                            <i class="fas fa-star"></i>
+                            <span>6.7</span>
+                            <strong>Superb</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tour">
+                <div class="tour-img">
+                    <img src="./images/tour5.png" alt="">
+                </div>
+                <div class="tour-calendar">
+                    <div class="tour-calend">
+                        <i class="tour-icon far fa-calendar"></i>
+                        <span>1</span>
+                    </div>
+                    <div class="tour-user">
+                        <i class="tour-icon fas fa-user"></i>
+                        <span>13+</span>
+                    </div>
+                    <div class="tour-location">
+                        <i class="tour-icon fas fa-map-marker-alt"></i>
+                        <span>Skiing</span>
+                    </div>
+                </div>
+                <div class="tour-content">
+                    <h3 class="tour-heading">
+                        Winter Action
+                    </h3>
+                    <p class="tour-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum provident
+                        officia,
+                        quos maiores nostrum.
+                    </p>
+                    <div class="tour-foot">
+                        <div class="tour-price">$1000</div>
+                        <div class="tour-rating">
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>6.7</span>
+                            <strong>Good</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tour">
+                <div class="tour-img">
+                    <img src="./images/tour6.png" alt="">
+                </div>
+                <div class="tour-calendar">
+                    <div class="tour-calend">
+                        <i class="tour-icon far fa-calendar"></i>
+                        <span>1</span>
+                    </div>
+                    <div class="tour-user">
+                        <i class="tour-icon fas fa-user"></i>
+                        <span>13+</span>
+                    </div>
+                    <div class="tour-location">
+                        <i class="tour-icon fas fa-map-marker-alt"></i>
+                        <span>Skiing</span>
+                    </div>
+                </div>
+                <div class="tour-content">
+                    <h3 class="tour-heading">
+                        Winter Action
+                    </h3>
+                    <p class="tour-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum provident
+                        officia,
+                        quos maiores nostrum.
+                    </p>
+                    <div class="tour-foot">
+                        <div class="tour-price">$1000</div>
+                        <div class="tour-rating">
+                            <i class="fas fa-star"></i>
+                            <span>6.7</span>
+                            <strong>Good</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sport">
+            <div class="sport-container">
+                <p class="sport-short">Try Now</p>
+                <h1 class="sport-heading">Winter Sports</h1>
+                <iframe width="860" height="412" src="https://www.youtube.com/embed/fy31cgO-sko"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p class="sport-desc">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa. Cum sociis Theme natoque penatibus et magnis dis sit amet, consectetuer adipiscing elit Etiam
+                    rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit ame
+                </p>
+                <a href="#" class="sport-viewmore">View More</a>
+            </div>
+        </section>
+
+        <section class="review">
+            <h3 class="text-heading review-heading">Top Reviews</h3>
+            <p class="text-desc review-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                ligula eget
+                dolor.
+                Aenean massa. Cum
+            </p>
+            <div class="slider3">
+                <div class="review-item">
+                    <div class="review-content">
+                        <div class="review-avatar">
+                            <img src="./images/user1.png" alt="">
+                        </div>
+                        <div class="review-info">
+                            <h3 class="review-name">Taragonna</h3>
+                            <div class="review-rating">
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                            </div>
+                            <p class="review-maxin">
+                                Te utar uvlues iwqodit tas, vut et nihc egam yubulas. Ei euvy
+                            </p>
+                            <strong class="review-position">
+                                Carl Moore
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-content">
+                        <div class="review-avatar">
+                            <img src="./images/user2.png" alt="">
+                        </div>
+                        <div class="review-info">
+                            <h3 class="review-name">Kaohsiung</h3>
+                            <div class="review-rating">
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star far fa-star"></i>
+                            </div>
+                            <p class="review-maxin">
+                                Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy
+                            </p>
+                            <strong class="review-position">
+                                Roger Brooks
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-content">
+                        <div class="review-avatar">
+                            <img src="./images/user3.png" alt="">
+                        </div>
+                        <div class="review-info">
+                            <h3 class="review-name">Beautiful Holland</h3>
+                            <div class="review-rating">
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                            </div>
+                            <p class="review-maxin">
+                                Fo etor uvluoc iwpodit res, vet of nihc egam yubulas. Al uavq
+                            </p>
+                            <strong class="review-position">
+                                Carol Silva
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-content">
+                        <div class="review-avatar">
+                            <img src="./images/user4.png" alt="">
+                        </div>
+                        <div class="review-info">
+                            <h3 class="review-name">Taipei</h3>
+                            <div class="review-rating">
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star far fa-star"></i>
+                            </div>
+                            <p class="review-maxin">
+                                Pe utor aviuas lwpadit tas, vut et nihc egam yubulas. Si euvy
+                            </p>
+                            <strong class="review-position">
+                                Susan Day
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-content">
+                        <div class="review-avatar">
+                            <img src="./images/user5.png" alt="">
+                        </div>
+                        <div class="review-info">
+                            <h3 class="review-name">Holland Canals</h3>
+                            <div class="review-rating">
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star far fa-star"></i>
+                            </div>
+                            <p class="review-maxin">
+                                Sa etor aviues lmpedlt tes, vof ef nihc agem qupaios. Ai apvy
+                            </p>
+                            <strong class="review-position">
+                                Ema Cooper
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-content">
+                        <div class="review-avatar">
+                            <img src="./images/user6.png" alt="">
+                        </div>
+                        <div class="review-info">
+                            <h3 class="review-name">Madrid</h3>
+                            <div class="review-rating">
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star far fa-star"></i>
+                            </div>
+                            <p class="review-maxin">
+                                Pe ator eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy
+                            </p>
+                            <strong class="review-position">
+                                Sam Smith
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-content">
+                        <div class="review-avatar">
+                            <img src="./images/user4.png" alt="">
+                        </div>
+                        <div class="review-info">
+                            <h3 class="review-name">Taragonna</h3>
+                            <div class="review-rating">
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star fas fa-star"></i>
+                                <i class="review-star far fa-star"></i>
+                            </div>
+                            <p class="review-maxin">
+                                Te utar uvlues iwqodit tas, vut et nihc egam yubulas. Ei euvy
+                            </p>
+                            <strong class="review-position">
+                                Carl Moore
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="holiday">
+            <div class="holiday-content">
+                <p class="text-shortdes">Enjoy Your</p>
+                <h3 class="text-heading holiday-heading">Winter Holiday</h3>
+                <p class="text-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                    eget dolor lorem ipsum.</p>
+                <div class="holiday-service">
+                    <div class="holiday-item">
+                        <div class="holiday-img">
+                            <img src="./images/holiday1.png" alt="">
+                        </div>
+                        <h3 class="holiday-heading">Restaurants</h3>
+                        <p class="holiday-desc">
+                            Aenean commodo ligula eget dolor. Lorem ipsum
+                        </p>
+                    </div>
+                    <div class="holiday-item">
+                        <div class="holiday-img">
+                            <img src="./images/holiday2.png" alt="">
+                        </div>
+                        <h3 class="holiday-heading">Sightseeing</h3>
+                        <p class="holiday-desc">
+                            Aenean commodo ligula eget dolor. Lorem ipsum
+                        </p>
+                    </div>
+                    <div class="holiday-item">
+                        <div class="holiday-img">
+                            <img src="./images/holiday3.png" alt="">
+                        </div>
+                        <h3 class="holiday-heading">Shops & Boutiques</h3>
+                        <p class="holiday-desc">
+                            Aenean commodo ligula eget dolor. Lorem ipsum
+                        </p>
+                    </div>
+                    <div class="holiday-item">
+                        <div class="holiday-img">
+                            <img src="./images/holiday4.png" alt="">
+                        </div>
+                        <h3 class="holiday-heading">Where to Stay</h3>
+                        <p class="holiday-desc">
+                            Aenean commodo ligula eget dolor. Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="slider4">
+                <div class="team-item">
+                    <img src="./images/team1.png" alt="">
+                    <div class="team-info">
+                        <h3 class="team-name">Jack Burton</h3>
+                        <p class="team-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="team-social">
+                            <i class="team-icon fab fa-twitter"></i>
+                            <i class="team-icon fab fa-pinterest"></i>
+                            <i class="team-icon fab fa-facebook-f"></i>
+                            <i class="team-icon fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img src="./images/team2.png" alt="">
+                    <div class="team-info">
+                        <h3 class="team-name">Joe Avery</h3>
+                        <p class="team-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="team-social">
+                            <i class="team-icon fab fa-twitter"></i>
+                            <i class="team-icon fab fa-pinterest"></i>
+                            <i class="team-icon fab fa-facebook-f"></i>
+                            <i class="team-icon fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img src="./images/team3.png" alt="">
+                    <div class="team-info">
+                        <h3 class="team-name">Bella Larson</h3>
+                        <p class="team-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="team-social">
+                            <i class="team-icon fab fa-twitter"></i>
+                            <i class="team-icon fab fa-pinterest"></i>
+                            <i class="team-icon fab fa-facebook-f"></i>
+                            <i class="team-icon fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img src="./images/team4.png" alt="">
+                    <div class="team-info">
+                        <h3 class="team-name">Grace West</h3>
+                        <p class="team-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="team-social">
+                            <i class="team-icon fab fa-twitter"></i>
+                            <i class="team-icon fab fa-pinterest"></i>
+                            <i class="team-icon fab fa-facebook-f"></i>
+                            <i class="team-icon fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img src="./images/team1.png" alt="">
+                    <div class="team-info">
+                        <h3 class="team-name">Jack Burton</h3>
+                        <p class="team-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="team-social">
+                            <i class="team-icon fab fa-twitter"></i>
+                            <i class="team-icon fab fa-pinterest"></i>
+                            <i class="team-icon fab fa-facebook-f"></i>
+                            <i class="team-icon fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img src="./images/team2.png" alt="">
+                    <div class="team-info">
+                        <h3 class="team-name">Joe Avery</h3>
+                        <p class="team-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="team-social">
+                            <i class="team-icon fab fa-twitter"></i>
+                            <i class="team-icon fab fa-pinterest"></i>
+                            <i class="team-icon fab fa-facebook-f"></i>
+                            <i class="team-icon fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img src="./images/team3.png" alt="">
+                    <div class="team-info">
+                        <h3 class="team-name">Bella Larson</h3>
+                        <p class="team-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="team-social">
+                            <i class="team-icon fab fa-twitter"></i>
+                            <i class="team-icon fab fa-pinterest"></i>
+                            <i class="team-icon fab fa-facebook-f"></i>
+                            <i class="team-icon fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img src="./images/team4.png" alt="">
+                    <div class="team-info">
+                        <h3 class="team-name">Grace West</h3>
+                        <p class="team-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="team-social">
+                            <i class="team-icon fab fa-twitter"></i>
+                            <i class="team-icon fab fa-pinterest"></i>
+                            <i class="team-icon fab fa-facebook-f"></i>
+                            <i class="team-icon fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-container">
+                <div id="numbers">
+                    <div class="number-content">
+                        <div class="fig-number">452</div>
+                        <span>Tourists</span>
+                    </div>
+                    <div class="number-content">
+                        <div class="fig-number">120</div>
+                        <span>Years</span>
+                    </div>
+                    <div class="number-content">
+                        <div class="fig-number">283</div>
+                        <span>Cottages</span>
+                    </div>
+                    <div class="number-content">
+                        <div class="fig-number">197</div>
+                        <span>Restaurants</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resort">
+            <div class="resort-container">
+                <p class="text-shortdes">Choose Your</p>
+                <h3 class="text-heading holiday-heading">Winter Resort</h3>
+                <p class="text-desc">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                    eget dolor lorem ipsum.
+                </p>
+                <div class="resort-list">
+                    <div class="resort-item">
+                        <div class="resort-img">
+                            <img src="./images/resort1.png" alt="">
+                            <h4 class="resort-title">Slovenia</h4>
+                            <div class="resort-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="resort-item">
+                        <div class="resort-img">
+                            <img src="./images/resort2.png" alt="">
+                            <h4 class="resort-title">France</h4>
+                            <div class="resort-overlay"></div>
+                        </div>
+                        <div class="resort-star">
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="resort-item">
+                        <div class="resort-img">
+                            <img src="./images/resort3.png" alt="">
+                            <h4 class="resort-title">Switferland</h4>
+                            <div class="resort-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="footer-container">
+                <div class="footer-list">
+                    <div class="footer-item">
+                        <div class="footer-logo">
+                            <img src="./images/logo-white.png" alt="">
+                        </div>
+                        <span class="footer-des">Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</span>
+                        <div class="footer-content-contact">
+                            <div class="footer-contact">
+                                <i class="far fa-envelope"></i>
+                                <span class="footer-email">
+                                    Hoangvuong1225@gmail.com
+                                </span>
+                            </div>
+                            <div class="footer-contact">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="footer-email">
+                                    0347689482
+                                </span>
+                            </div>
+                            <div class="footer-contact">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span class="footer-email">
+                                    Broadway & Morris St, New York
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-item">
+                        <h3 class="footer-head">
+                            Our Recent Posts
+                        </h3>
+                        <div class="footer-post">
+                            <a href="#" class="text-small footer-post-location">Visit Thailand, Bali
+                                And China</a>
+                            <a href="#" class="text-small footer-post-date">September 7, 2016</a>
+                        </div>
+                        <div class="footer-post">
+                            <a href="#" class="text-small footer-post-location">Visit Thailand, Bali And China</a>
+                            <a href="#" class="text-small footer-post-date">September 7, 2016</a>
+                        </div>
+                        <div class="footer-post">
+                            <a href="#" class="text-small footer-post-location">Visit Thailand, Bali And China</a>
+                            <a href="#" class="text-small footer-post-date">September 7, 2016</a>
+                        </div>
+                    </div>
+                    <div class="footer-item">
+                        <h3 class="footer-head">
+                            Subscribe to our Newsletter
+                        </h3>
+                        <p class="text-small">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</p>
+                        <form action="" class="form">
+                            <div class="form-flex">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="form-flex">
+                                <i class="fas fa-envelope"></i>
+                                <input type="text" placeholder="Email">
+                            </div>
+                            <button class="footer-submit">Subcribe</button>
+                        </form>
+                    </div>
+                    <div class="footer-item">
+                        <h3 class="footer-head">
+                            Our Instagram
+                        </h3>
+                        <p class="text-small">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <span>Powered by</span> @ Vuong Hovuotsax 2021
+            </div>
+        </section>
+
+    </div>
+    <!-- swiper slider -->
+    <script src="./js/app.js"></script>
+    <!-- swiper slider -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- slick slider js -->
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slide.js"></script>
+    <script src="./js/scrollreveal.js"></script>
+    <script src="./js/scrollincrea.js"></script>
+</body>
+
+</html>

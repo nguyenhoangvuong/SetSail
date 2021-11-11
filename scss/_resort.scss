@@ -1,0 +1,124 @@
+.resort {
+  &-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  &-list {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 80px;
+  }
+  &-img {
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    img {
+      border-radius: 50%;
+      transition: all 0.5s linear;
+    }
+  }
+
+  &-item {
+    position: relative;
+  }
+
+  &-item:hover img {
+    transform: scale(1.1);
+  }
+
+  &-overlay {
+    border-radius: 50%;
+    background: rgba(51, 51, 51, 0.37);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Satisfy", cursive;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: 0;
+    color: #fff;
+    z-index: 2;
+  }
+
+  &-star {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 99999;
+    i {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 17px;
+      background: $primary;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .resort-container {
+    max-width: 80vw;
+  }
+  .resort-star {
+    top: 7px;
+    right: 7px;
+  }
+  .resort-title {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .resort-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 40px;
+  }
+  .resort-item:last-child {
+    left: 54%;
+  }
+  .resort-title {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .resort-container {
+    max-width: 75vw;
+  }
+  .resort-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px 40px;
+  }
+  .resort-item:last-child {
+    left: unset;
+  }
+}
+
+@media (max-width: 450px) {
+  .resort-star {
+    top: 14px;
+    right: 14px;
+  }
+}

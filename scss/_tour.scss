@@ -1,0 +1,62 @@
+.slider2 {
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-bottom: 110px;
+}
+.tour {
+  margin: 0 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgb(216, 216, 216);
+
+  &-img {
+    overflow: hidden;
+    img:hover {
+      transform: scale(1.04);
+      transition: all 0.8s linear;
+      cursor: pointer;
+    }
+  }
+
+  &-calendar {
+    background: $primary;
+    display: flex;
+    padding: 8px 28px;
+    color: #fff;
+    gap: 0 18px;
+  }
+
+  &-icon {
+    padding-right: 5px;
+  }
+
+  &-content {
+    padding: 31px 25px 33px 25px;
+  }
+
+  &-heading {
+    color: $black;
+    font-size: 22px;
+  }
+
+  &-desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+  }
+
+  &-foot {
+    color: $black;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    gap: 0 25px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .slider2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

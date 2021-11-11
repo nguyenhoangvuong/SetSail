@@ -1,0 +1,83 @@
+.review {
+  background: url("../images/skiing-parallax-1.png");
+  background-attachment: fixed;
+  text-align: center;
+
+  &-heading {
+    color: #fff;
+  }
+
+  &-desc {
+    color: #fff;
+  }
+  &-item {
+    background-color: #fff;
+    margin: 0 15px;
+    border-radius: 10px;
+  }
+  &-content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 40px 43px;
+    text-align: left;
+    gap: 0 10px;
+  }
+
+  &-avatar {
+    width: 107px;
+    height: 107px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &-position,
+  &-name {
+    color: $black;
+  }
+
+  &-rating {
+    color: $primary;
+    padding: 5px 0 10px 0;
+  }
+
+  &-star {
+    font-size: 11px;
+  }
+
+  &-maxin {
+    margin: 0;
+    padding-bottom: 17px;
+  }
+}
+.slider3 {
+  padding-top: 10px;
+  margin-left: -15px;
+  margin-right: -15px;
+  overflow: hidden;
+  padding-bottom: 107px;
+  .slick-dots {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .review {
+    &-content {
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+      gap: 18px 0;
+    }
+
+    &-avatar {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .review-content {
+  }
+}

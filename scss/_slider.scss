@@ -1,0 +1,29 @@
+// slider 2 , 3
+.slider4,
+.slider3,
+.slider2 {
+  margin-top: 20px;
+  .slick-prev.slick-arrow,
+  .slick-next.slick-arrow {
+    display: none !important;
+  }
+
+  .slick-dots {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+
+    li button {
+      color: transparent;
+      border-radius: 50%;
+      width: 11px;
+      height: 12px;
+      background-color: rgba($color: $primary, $alpha: 0.6);
+    }
+
+    li.slick-active button {
+      background: $primary;
+    }
+  }
+}
